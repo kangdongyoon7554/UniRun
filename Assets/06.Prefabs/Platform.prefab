@@ -446,6 +446,8 @@ GameObject:
   - component: {fileID: 8019819932379765669}
   - component: {fileID: 1520852444660630321}
   - component: {fileID: 1688061194657522076}
+  - component: {fileID: 6942893788017759794}
+  - component: {fileID: 4504622657830190132}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Untagged
@@ -572,3 +574,32 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 10, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &6942893788017759794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7779060971425740760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e2268485faaf0140893e8ac1a5479da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+--- !u!114 &4504622657830190132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7779060971425740760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7697e9889494644a60ee358533a413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacles:
+  - {fileID: 1798730153906038211}
+  - {fileID: 6797458015180109292}
+  - {fileID: 2980779141125438240}
